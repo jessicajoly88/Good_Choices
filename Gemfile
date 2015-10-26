@@ -25,5 +25,7 @@ end
 group :test do
   gem 'shoulda-matchers', '3.0.0'
   gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
   gem 'simplecov', require: false
 end
