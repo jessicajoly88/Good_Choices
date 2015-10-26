@@ -1,0 +1,8 @@
+<% content_for(:nav) do %>
+Hi! this is the welcome page!
+<% end %>
+<hr>
+
+<h3><% @questions.each do |question| %>
+<%= question.text %>
+<% end %></h3>

@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GoodChoices</title>
+  <title>Good Choices</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<div class='container'>
 <body>
-
+<nav>
+  <h1>Choices, Choices</h1>
+  <%= yield(:nav) %>
+</nav>
 <%= yield %>
 
 </body>
+</div>
 </html>

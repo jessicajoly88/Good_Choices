@@ -1,12 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/good_choices/spec/models/option_spec.rb": [
+      "/Users/Guest/Desktop/good_choices/spec/models/question_spec.rb": [
         1,
         null,
         1,
         2,
-        2,
+        null,
         null
       ],
       "/Users/Guest/Desktop/good_choices/spec/rails_helper.rb": [
@@ -252,85 +252,32 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/good_choices/app/models/option.rb": [
+      "/Users/Guest/Desktop/good_choices/app/controllers/questions_controller.rb": [
         1,
         1,
+        0,
+        null,
+        null,
         1,
+        null,
         null
       ],
       "/Users/Guest/Desktop/good_choices/app/models/question.rb": [
-        1,
         1,
         1,
         null
       ],
       "/Users/Guest/Desktop/good_choices/config/routes.rb": [
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/good_choices/spec/models/question_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
+        1,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1445882440
+    "timestamp": 1445893926
   }
 }
