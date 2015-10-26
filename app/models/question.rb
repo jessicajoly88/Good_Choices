@@ -1,3 +1,4 @@
 class Question < ActiveRecord::Base
-  validates :text, :presence => true
+  validates :option1, :presence => true
+  validates :option2, :presence => true
 end

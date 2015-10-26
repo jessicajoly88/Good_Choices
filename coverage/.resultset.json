@@ -6,6 +6,7 @@
         null,
         1,
         2,
+        2,
         null,
         null
       ],
@@ -259,10 +260,26 @@
         null,
         null,
         1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
         null,
         null
       ],
       "/Users/Guest/Desktop/good_choices/app/models/question.rb": [
+        1,
         1,
         1,
         null
@@ -278,6 +295,6 @@
         null
       ]
     },
-    "timestamp": 1445893926
+    "timestamp": 1445894662
   }
 }

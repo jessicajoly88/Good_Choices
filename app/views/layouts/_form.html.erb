@@ -1,7 +1,7 @@
-<%= form_for [@question, @option] do |f| %>
-<%= f.label : %>
-<%= f.text_field : %>
-<%= f.label : %>
-<%= f.text_field : %>
+<%= form_for [@question] do |f| %>
+<%= f.label :option_1 %>
+<%= f.text_field :option1 %>
+<%= f.label :option_2 %>
+<%= f.text_field :option2 %>
 <h5><%= f.submit %></h5>
 <% end %>
