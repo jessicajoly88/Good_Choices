@@ -3,6 +3,11 @@ Hi! this is the welcome page!
 <% end %>
 <hr>
 
-<h3><% @questions.each do |question| %>
-<%= question.text %>
-<% end %></h3>
+<% @questions.each do |question| %>
+<h2>  Would you rather? </h2>
+<h3><%= question.option1 %><br>
+<%= question.option2 %><br></h3>
+<% end %>
+
+
+<%= link_to "Add a Question", new_question_path, id: "new_question_link", class: "btn btn-default", remote: true %> 

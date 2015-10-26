@@ -3,6 +3,9 @@ class QuestionsController < ApplicationController
     @questions = Question.all
   end
 
+  def show
+  end
+
   def new
     @question = Question.new
   end
@@ -10,7 +13,10 @@ class QuestionsController < ApplicationController
   def create
     @question = Question.new(question_params)
     if @question.save
-      redirect_to root
+      respond_to do |format|
+        format.html { redirect_to questions_path }
+        format.js
+      end
     else
       render :new
     end
