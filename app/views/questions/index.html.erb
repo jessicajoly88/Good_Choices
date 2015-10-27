@@ -1,5 +1,4 @@
 <% content_for(:nav) do %>
-Hi! this is the welcome page!
 <% end %>
 <hr>
 
@@ -10,10 +9,12 @@ Hi! this is the welcome page!
 
       <%= link_to question.answers.first.body, answer_votes_path(question.answers.first), method: "post", remote: true  %>
       <span id="answer_<%=question.answers.first.id%>"><%= question.answers.first.votes.count %></span>
+
       <%= link_to question.answers.last.body,answer_votes_path(question.answers.last), method: "post",  remote: true %>
       <span id="answer_<%=question.answers.last.id%>"><%= question.answers.last.votes.count %></span>
 
     </div>
+    <hr>
   <% end %>
 </ul>
 

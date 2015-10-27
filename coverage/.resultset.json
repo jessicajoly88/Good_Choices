@@ -1,28 +1,37 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/Good_Choices/spec/features/questions_spec.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/Good_Choices/spec/models/answer_spec.rb": [
+      "/Users/Guest/Desktop/Good_Choices/spec/features/questions_pages_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
-        2,
+        1,
+        3,
+        3,
+        3,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
         null
       ],
       "/Users/Guest/Desktop/Good_Choices/spec/rails_helper.rb": [
@@ -65,8 +74,8 @@
         null,
         null,
         1,
-        5,
-        5,
+        8,
+        8,
         null,
         null,
         null,
@@ -252,6 +261,14 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/Good_Choices/app/controllers/answers_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/Good_Choices/app/controllers/application_controller.rb": [
         1,
         null,
@@ -266,29 +283,45 @@
       "/Users/Guest/Desktop/Good_Choices/app/controllers/questions_controller.rb": [
         1,
         1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        0,
-        null,
+        3,
+        3,
         null,
         null,
         1,
         1,
+        3,
+        null,
+        null,
+        1,
         0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/Good_Choices/app/controllers/votes_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -302,11 +335,26 @@
       "/Users/Guest/Desktop/Good_Choices/app/models/question.rb": [
         1,
         1,
+        1,
         null
       ],
       "/Users/Guest/Desktop/Good_Choices/app/models/vote.rb": [
         1,
         1,
+        null
+      ],
+      "/Users/Guest/Desktop/Good_Choices/spec/factories.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/Guest/Desktop/Good_Choices/config/routes.rb": [
@@ -321,6 +369,15 @@
         1,
         null,
         null,
+        null
+      ],
+      "/Users/Guest/Desktop/Good_Choices/spec/models/answer_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/Good_Choices/spec/models/question_spec.rb": [
@@ -338,6 +395,6 @@
         null
       ]
     },
-    "timestamp": 1445967480
+    "timestamp": 1445988255
   }
 }
