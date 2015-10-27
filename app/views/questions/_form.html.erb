@@ -4,11 +4,12 @@
   <ul>
     <%= f.fields_for :answers do |answers_form| %>
       <li>
-        <%= answers_form.label :body %>
+        <%= answers_form.label :option %>
         <%= answers_form.text_field :body %>
       </li>
 
     <% end %>
+    <br>
     <%= f.submit "Submit" %>
   </ul>
 <% end %>
