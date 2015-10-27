@@ -3,11 +3,13 @@ Hi! this is the welcome page!
 <% end %>
 <hr>
 
-<!-- <% @questions.each do |question| %>
-<h2>  Would you rather? </h2>
-<h3><%= question.option1 %><br>
-<%= question.option2 %><br></h3>
-<% end %> -->
+<h2>Would you rather ?</h2>
+<% @answers.each do |answer| %>
+  <%= answer.body %>
+<% end %>
 
-
+<br>
+<br>
+<div class="container-fluid">
 <%= link_to "Add a Question", new_question_path, id: "new_question_link", class: "btn btn-info", remote: true %>
+</div>

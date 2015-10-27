@@ -1,11 +1,14 @@
 class QuestionsController < ApplicationController
   def index
     @questions = Question.all
+    @answers = Answer.all
   end
 
   def new
     @question = Question.new
+    2.times { @question.answers.build}
   end
+
 
 
   def create
@@ -22,6 +25,6 @@ class QuestionsController < ApplicationController
 
   private
     def question_params
-      params.require(:question).permit(:option1, :option2)
+      params.require(:question).permit(answers_attributes: [:id, :body])
     end
 end

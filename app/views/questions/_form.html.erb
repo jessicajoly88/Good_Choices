@@ -1,7 +1,14 @@
+
 <%= form_for @question do |f| %>
-<%= f.label :option1 %>
-<%= f.text_field :option1 %>
-<%= f.label :option2 %>
-<%= f.text_field :option2 %>
-<h5><%= f.submit %></h5>
+  Options:
+  <ul>
+    <%= f.fields_for :answers do |answers_form| %>
+      <li>
+        <%= answers_form.label :body %>
+        <%= answers_form.text_field :body %>
+      </li>
+
+    <% end %>
+    <%= f.submit "Submit" %>
+  </ul>
 <% end %>
